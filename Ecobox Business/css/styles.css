@@ -1,0 +1,384 @@
+
+body {
+  background-color: #f9faee;
+}
+
+#banner{
+  position:relative;
+  color: #fff;
+  background: url(../img/slider-bg.png) no-repeat 0 0;
+  background-size:cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  min-height: 468px;
+  min-width: 1200px;
+  border: 2px solid #000;
+}
+
+.navigation {
+  position: relative;
+  width: 70%;
+  float: right;
+}
+
+#banner .navigation {
+  margin-right: 130px;
+  margin-top: 20px;
+}
+
+#banner .logo {
+  margin-top: 15px;
+  margin-left: 55px;
+}
+
+.logo img {
+  float: left;
+  height: 75px;
+}
+
+.navigation ul {
+  border: 3px solid transparent;
+  background-color: #fdffe8;
+  display: block;
+  list-style: none;
+  text-align: center;
+  height: 75px;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  color: #3f5348;
+  font-family: 'TitilliumText22L', sans-serif, serif, Arial;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  margin-right: 15px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px 5px 10px 5px;
+}
+
+.b-bottom-1,
+.b-bottom-3 {
+    border-left: 3px solid #77bb97;
+    background-color: #77bb97;
+}
+
+.b-bottom-2 {
+    border-left: 5px solid #77bb97;
+    background-color: #77bb97;
+}
+/* Start What we do */
+.section-content,
+.goods-section {
+  margin-top: 49px;
+  width: 50%;
+  margin-bottom: 49px;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+.box {
+  float: left;
+  width: 30%;
+  position: relative;
+}
+
+.section-heading h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 80px;
+  color:  #3f5348;
+  text-transform: uppercase;
+}
+
+.service-box {
+  float: right;
+  width: 70%;
+
+  margin: 50px auto 0;
+}
+
+.service-box p {
+  margin-bottom: 0;
+}
+
+.service-box h3 {
+  font-family: 'BebasNeue', Arial, sans-serif, serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  max-width: 400px;
+}
+
+
+.service-box .green {
+    color: #77bb97;
+}
+
+.service-box .orange {
+  color: #f7764d;
+}
+
+.service-box .pink {
+  color: #c05b69;
+}
+
+.product img  {
+  float: right;
+  width: 15.7%;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+/* Start recent produced goods */
+.goods-section {
+  margin-top: 48px;
+
+}
+
+.col-left {
+  width: 18%;
+  float: left;
+}
+
+.goods h3 ,
+.col-left {
+  margin-left: 100px;
+}
+
+.product img {
+margin-right: 80px;
+margin-top: 20px;
+}
+
+.goods h3 {
+  padding-bottom: 10px;
+}
+
+.b-bottom-1,
+.b-bottom-3 {
+    border-left: 3px solid #77bb97;
+    background-color: #77bb97;
+    margin-right: 3px;
+}
+
+.b-bottom-2 {
+    border-left: 5px solid #77bb97;
+    background-color: #77bb97;
+    margin-right: 3px;
+}
+
+/* Start Our Best Offer */
+.best-offer {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.offer-info h4,
+.offer-info p {
+  font-family: 'TitilliumText22L', sans-serif, serif;
+    color: #3f5348;
+}
+
+.offer-info h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.offer-info p {
+  font-family: 'TitilliumText22L', sans-serif, serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.contact-info {
+  border: 1px solid #f2f2ee;
+  text-align: center;
+  width: 270px;
+  height: 320px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, rgba(242, 242, 238, 1) 50%, #f2f2ee 50%, #f2f2ee 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0) 50%, rgba(242, 242, 238, 1) 50%, #f2f2ee 50%, #f2f2ee 100%);
+  background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(242, 242, 238, 1) 50%, #f2f2ee 50%, #f2f2ee 100%);
+  background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(242, 242, 238, 1) 50%, #f2f2ee 50%, #f2f2ee 100%);
+  background: -ms-linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(242, 242, 238, 1) 50%, #f2f2ee 50%, #f2f2ee 100%);
+}
+
+.contact-info h3 {
+  font-family: 'BebasNeue', sans-serif, serif;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 250px;
+  height: 76px;
+  color: #3f5348;
+  margin-top: 48px;
+}
+
+.contact-info p {
+  font-family: 'TitilliumText22L', sans-serif, serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.contact-info a {
+  color: #fdffe8;
+  font-family: 'BebasNeue', sans-serif, serif;
+  font-size: 18px;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+.btn {
+  display:inline-block;
+  padding:6px 12px;
+  margin-bottom:0;
+  font-size:14px;
+  font-weight:400;
+  line-height:1.42857143;
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:middle;
+  border:1px solid transparent;
+  border-radius:2px;
+  background-color: #77bb97;
+  margin-top: 60px;
+  box-shadow: 0px 8px 10px 0.00px rgba(0, 0, 0, 0.1);
+  width: 140px;
+  height: 40px;
+}
+
+/* Start partnership section */
+
+.partner {
+  margin-top: 48px;
+  margin-bottom: 55px;
+}
+
+.partner h1 {
+  font-family: 'BebasNeue', sans-serif, serif;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 80px;
+  color: #3f5348;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.our-company h3,
+.our-partner h3 {
+  font-family: 'TitilliumText22L', sans-serif, serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3f5348;
+  margin-bottom: 22px;
+}
+
+.our-company h3 {
+  margin-left: 40px;
+}
+
+.our-partner p {
+    font: 400 13px / 21px 'TitilliumText22L';
+    width: 459px;
+    height: 95px;
+    color: #3f5348;
+
+}
+
+.our-company li {
+  list-style: none;
+  background-repeat: no-repeat;
+  background-image: url(../img/thumb-up.png);
+  background-position: left;
+  padding-left: 35px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.contact input,
+.email input {
+  font-size: 13px;
+  color: #3f5348;
+  background-color: #fbfcf0;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 5px 5px 30px;
+}
+
+.contact input {
+  width: 200px;
+  height: 40px;
+}
+
+.email input {
+  width: 325px;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.btn-send {
+    height: 45px;
+    width: 74px;
+    background-color: #77bb97;
+    font-family:'BebasNeue',sans-serif, serif, Arial;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fdffe8;
+    border-radius: 4px;
+}
+
+.copyright{
+  background-color: #1c2721;
+  padding: 0 0 15px 0;
+}
+
+.copyright p {
+   color: #96a39c;
+   font: 400 13px;
+   font-family: 'TitilliumText22L', sans-serif, serif, Arial;
+}
+
+.main-footer {
+  background-color: #243029;
+  color: #96a39c;
+  margin-top: 48px;
+  min-height: 348px;
+}
+
+.main-footer p,
+.contact a {
+  color: #96a39c;
+}
+
+.contact h3,
+.social h3 {
+  color: #77bb97;
+  font-family: 'TitilliumText22L', sans-serif, serif, Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.social li {
+  display: inline;
+}
+
+hr {
+  border-top: 3px solid transparent;
+  background-color: #77bb97;
+  width: 33%;
+  padding-top: 3px;
+}
